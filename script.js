@@ -29,4 +29,15 @@ const gamelogic = () => {
   } else {
     computerScore.innerHTML = Number(computerScore.innerHTML) + 1;
   }
+  if (playerScore.innerHTML === '3') {
+    setTimeout(() => {
+      playerScore.innerHTML = '-you win';
+      computerScore.innerHTML = '';
+    }, 500);
+  } else if (computerScore.innerHTML === '3') {
+    setTimeout(() => {
+      playerScore.innerHTML = '';
+      computerScore.innerHTML = 'computer wins-';
+    }, 500);
+  }
 };
