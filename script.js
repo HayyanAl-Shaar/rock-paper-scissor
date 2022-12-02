@@ -16,6 +16,6 @@ for (let i = 0; i < btn.length; i++) {
 
 
 const gamelogic = ()=> {
-  if((player.innerHTML === 'paper' && computer.innerHTML === 'rock')  )
+  if((player.innerHTML === 'paper' && computer.innerHTML === 'rock')||  )
 
 }
